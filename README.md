@@ -20,7 +20,7 @@ N/A
 
 ## Usage
 
-Navagate to the following link: 
+Navagate to the following link: https://rune-encoder.github.io/Horiseon-Hompage/
 
 The homepage is divided into different sections explaining the various benefits offered to businesses.
 
