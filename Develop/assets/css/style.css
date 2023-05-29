@@ -1,13 +1,16 @@
+/*Universal Selector: Below contains universal style rules for the whole document*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Body: Code contains background color for the body*/
 body {
     background-color: #d9dcd6;
 }
 
+/*Header and Child Elements: Grouped below are styles for the header and the elements contained within the header (child elements).*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -38,6 +41,7 @@ a {
     text-decoration: none;
 }
 
+/*Figure: Below contains rules for the Main Banner Image (The Hero Image)*/
 figure
 img {
     height: 800px;
@@ -47,6 +51,8 @@ img {
     background-position: center;
 }
 
+/*Selector Class: This section contains the rules which can be applied to elements to move them to the right or left. 
+Mainly used for the images in the <main> section. */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -57,6 +63,7 @@ img {
     margin-left: 25px;
 }
 
+/*Main and Child Elements: Grouped below are the rules for the main element and child elements within.*/
 main {
     width: 75%;
     display: inline-block;
@@ -67,6 +74,7 @@ p {
     font-size: 16px;
 }
 
+/*Main-Sections and Child Elements: Grouped below are the rules for the section elements located inside main element and the child elements within the section element.*/
 main
 section {
     margin-bottom: 20px;
@@ -87,6 +95,7 @@ h2 {
     font-size: 36px;
 }
 
+/*Aside and Child Elements: Grouped below are the rules for the Aside element and the child elements within.*/
 aside{
     margin-right: 20px;
     padding: 20px;
@@ -116,6 +125,7 @@ h3 {
     text-align: center;
 }
 
+/*Footer and elements within: Grouped below are the rules for the footer and the elements within.*/
 footer {
     padding: 30px;
     clear: both;
